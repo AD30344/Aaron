@@ -48,11 +48,12 @@ header nav ul li:last-child a {
 
 /* image */
 
-img {
- justify-content: right;
-  max-width: 100%;
+img{
+ 
+  width: 100%;
   border-radius: 50%;
-  margin-top: 0px;
+  margin: 0px;
+  text-align:center;
 }
 
 /* Text Styling */
@@ -81,7 +82,7 @@ a:hover{ color:rgb(126, 55, 126); }
 form label {
   justify-content: space-around;
   font-size: 18px;
-  margin: 0px;
+  margin-bottom: 5px;
 padding: 0%;
   color: gray;
   font-family: arial;
@@ -94,10 +95,14 @@ form textarea {
   color: #000;
   padding: 5 5 5 5px;
   font-size: 18px;
-  margin: 5 5 5 5px;
+  margin-top: 5px;
 }
 
 /*Header/Footer*/
+
+head {
+  text-align: center;
+}
 
 header {
   font-family: 'Gochi Hand';
