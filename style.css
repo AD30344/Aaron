@@ -6,7 +6,8 @@ html {
   background-color: #daecec;
   padding: 270px;
   display:flex;
-
+width:100%;
+height:100%;
 }
 
 header {
